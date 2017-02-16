@@ -2,9 +2,11 @@
   "name": "petersbot",
   "version": "1.0.0",
   "description": "for ordering peters",
-  "main": "index.js",
+  "main": "peters.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
     "express": "^4.14.1",
     "mongodb": "^2.2.24",
     "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.1",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
   }
 }

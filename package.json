@@ -1,0 +1,24 @@
+{
+  "name": "petersbot",
+  "version": "1.0.0",
+  "description": "for ordering peters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomwarner13/PetersBot.git"
+  },
+  "author": "team petersbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomwarner13/PetersBot/issues"
+  },
+  "homepage": "https://github.com/tomwarner13/PetersBot#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24",
+    "react": "^15.4.2"
+  }
+}

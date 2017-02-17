@@ -8,7 +8,6 @@ export default class Menu extends React.Component {
             menuItems: this.props.menuItems
         });
     }
-
     render() {
         return (<div className="menu-body col-md-6-offset-3">
             <List>

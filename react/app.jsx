@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Menu from './menu.jsx';
+import Menu from './menu/menu.jsx';
 import Paper from 'material-ui/Paper';
 
 const menuItems = [

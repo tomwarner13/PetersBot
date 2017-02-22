@@ -5,6 +5,7 @@ import Menu from './menu/menu.jsx';
 import OrdersTable from './orders/ordersTable.jsx';
 import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
+import petersMenu from './menu/petersMenu';
 
 const menuItems = [
   { name: "BLT", price: 3, category: "breakfast" },

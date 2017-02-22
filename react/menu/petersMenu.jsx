@@ -30,8 +30,7 @@ const sidesMenu = [];
 const comboMenu = [];
 const drinkMenu = [];
 
-
- const petersMenu = [breakfastMenu, lunchMenu, platterMenu, saladMenu, sidesMenu, comboMenu, drinkMenu];
+export const petersMenu = [breakfastMenu, lunchMenu, platterMenu, saladMenu, sidesMenu, comboMenu, drinkMenu];
 
 const menuItems = [
   { name: "BLT", price: 3, category: "breakfast" },
@@ -45,3 +44,4 @@ const menuItems = [
   { name: "Chocolate Milk", price: 2, category: "drink" },
   { name: "Orange Juice", price: 2, category: "drink" }
 ];
+;

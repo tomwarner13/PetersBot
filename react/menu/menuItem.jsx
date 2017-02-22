@@ -10,7 +10,7 @@ export default class MenuItem extends React.Component {
 
     render() {
         let { item } = this.state;
-        return (<ListItem primaryText={item.name} secondaryText={`$ ${item.price}.00`} />
+        return (<ListItem primaryText={item.name} secondaryText={`$ ${item.price}`}/>
         );
     }
 }

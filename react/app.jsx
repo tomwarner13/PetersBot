@@ -5,20 +5,9 @@ import Menu from './menu/menu.jsx';
 import OrdersTable from './orders/ordersTable.jsx';
 import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
-import petersMenu from './menu/petersMenu';
+import {petersMenu} from './menu/petersMenu.jsx';
 
-const menuItems = [
-  { name: "BLT", price: 3, category: "breakfast" },
-  { name: "Bagel", price: 1, category: "breakfast" },
-  { name: "Bacon Egg & Cheese", price: 3, category: "breakfast" },
-  { name: "Grilled Cheese", price: 2, category: "breakfast" },
-  { name: "Turkey Sub", price: 5, category: "lunch" },
-  { name: "Chicken Wrap", price: 4, category: "lunch" },
-  { name: "Burger", price: 4, category: "dinner" },
-  { name: "Fish Dinner", price: 8, category: "dinner" },
-  { name: "Chocolate Milk", price: 2, category: "drink" },
-  { name: "Orange Juice", price: 2, category: "drink" }
-];
+const menuItems = petersMenu[0];
 
 class PetersApp extends React.Component {
   componentWillMount() {

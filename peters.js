@@ -1,8 +1,18 @@
 var express = require('express');
 var mongoose = require('mongoose');
 
+const dbUrl = 'mongodb://localhost:12345/test';
+mongoose.connect(dbUrl);
+
 //see for ref https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
 var Schema = mongoose.Schema;
+
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log(`Successfully connected to MongoDb on ${dbUrl}`);
+});
+
 var app = express();
 
 //user management
